@@ -159,16 +159,6 @@ img {
   height: 20%;
 }
 
-.about-header {
-  color: #fff;
-}
-
-.content-container-about {
-  color: #fff;
-  font-size: 0.6rem;
-  margin-top: 0;
-}
-
 .content-container-tweets-header {
   border-bottom: #de6262 1px solid;
   width: 75%;
@@ -207,18 +197,6 @@ img {
 .tweet-link {
   color: #1bade6;
   font-weight: bold;
-}
-
-.flickr-header {
-  color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 12pt;
-}
-
-.newsletter-header {
-  color: #fff;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 12pt;
 }
 
 .bottom-border {
@@ -325,19 +303,6 @@ header {
   .whats-new-body-1 {
     display: none;
   }
-
-  .latest-projects-header {
-    align-content: center;
-    text-align: center;
-  }
-  .latest-projects-header p {
-    text-align: center;
-  }
-
-  .latest-projects-body {
-    display: none;
-  }
-
 }
 
 
@@ -391,6 +356,7 @@ header {
     text-align: center;
   }
 
+
   .what-we-do-container-body p {
     text-align: center;
   }
@@ -411,31 +377,11 @@ header {
   .whats-new-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
   }
 
   .whats-new-body-1 {
     grid-column: 1 / -1;
-  }
-
-  .whats-new-header {
-    text-align: center;
-  }
-
-  .latest-projects-body-mobile {
-    display: none;
-  }
-
-  .latest-projects-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .latest-projects-header {
-    align-content: center;
-    text-align: center;
-  }
-  .latest-projects-header p {
-    text-align: center;
   }
 
 }
@@ -511,35 +457,6 @@ header {
     font-weight: bold;
   }
 
-  .whats-new-body-1 {
-    display: none;
-  }
-
-  .whats-new-body-4 {
-    display: initial;
-  }
-
-  .whats-new-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .latest-projects-body-mobile {
-    display: none;
-  }
-
-  .latest-projects-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .latest-projects-header {
-    align-content: center;
-    text-align: center;
-  }
-  .latest-projects-header p {
-    text-align: center;
-  }
 }
 
 
