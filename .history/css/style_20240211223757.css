@@ -294,15 +294,7 @@ header {
 
   .what-we-do-container-body p {
     margin-left: 6em;
-  }
-
-  .whats-new-header {
-    text-align: center;
-  }
-
-  .whats-new-body-1 {
-    display: none;
-  }
+}
 }
 
 
@@ -356,6 +348,7 @@ header {
     text-align: center;
   }
 
+
   .what-we-do-container-body p {
     text-align: center;
   }
@@ -363,27 +356,6 @@ header {
   .what-we-do-container-body h3 {
     text-align: center;
     font-weight: bold;
-  }
-
-  .whats-new-body-4 {
-    display: none;
-  }
-
-  .whats-new-body-5 {
-    display: none;
-  }
-
-  .whats-new-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .whats-new-body-1 {
-    grid-column: 1 / -1;
-  }
-
-  .whats-new-header {
-    text-align: center;
   }
 
 }
@@ -457,19 +429,6 @@ header {
   .what-we-do-container-body h3 {
     text-align: center;
     font-weight: bold;
-  }
-
-  .whats-new-body-1 {
-    display: none;
-  }
-
-  .whats-new-body-4 {
-    display: initial;
-  }
-
-  .whats-new-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
 }

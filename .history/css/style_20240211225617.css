@@ -459,19 +459,6 @@ header {
     font-weight: bold;
   }
 
-  .whats-new-body-1 {
-    display: none;
-  }
-
-  .whats-new-body-4 {
-    display: initial;
-  }
-
-  .whats-new-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
 }
 
 
