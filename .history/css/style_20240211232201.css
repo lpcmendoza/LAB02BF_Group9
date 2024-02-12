@@ -308,14 +308,6 @@ header {
     align-content: center;
     text-align: center;
   }
-  .latest-projects-header p {
-    text-align: center;
-  }
-
-  .latest-projects-body {
-    display: none;
-  }
-
 }
 
 
@@ -396,23 +388,6 @@ header {
   }
 
   .whats-new-header {
-    text-align: center;
-  }
-
-  .latest-projects-body-mobile {
-    display: none;
-  }
-
-  .latest-projects-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .latest-projects-header {
-    align-content: center;
-    text-align: center;
-  }
-  .latest-projects-header p {
     text-align: center;
   }
 
@@ -502,22 +477,6 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .latest-projects-body-mobile {
-    display: none;
-  }
-
-  .latest-projects-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .latest-projects-header {
-    align-content: center;
-    text-align: center;
-  }
-  .latest-projects-header p {
-    text-align: center;
-  }
 }
 
 
