@@ -159,6 +159,16 @@ img {
   height: 20%;
 }
 
+.about-header {
+  color: #fff;
+}
+
+.content-container-about {
+  color: #fff;
+  font-size: 0.6rem;
+  margin-top: 0;
+}
+
 .content-container-tweets-header {
   border-bottom: #de6262 1px solid;
   width: 75%;
@@ -197,6 +207,18 @@ img {
 .tweet-link {
   color: #1bade6;
   font-weight: bold;
+}
+
+.flickr-header {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12pt;
+}
+
+.newsletter-header {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12pt;
 }
 
 .bottom-border {
