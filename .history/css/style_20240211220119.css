@@ -238,7 +238,12 @@ header {
   .what-we-do-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+  }
+
+  .what-we-do-container-body {
+    width: 50%;
+    margin: auto;
+    display: inline-block;
   }
 
   .icons {
@@ -254,7 +259,6 @@ header {
     align-content: center;
     text-align: center;
   }
-
 
   .what-we-do-container-body p {
     text-align: center;
@@ -306,38 +310,6 @@ header {
   .l-hide {
       display: none;
   }
-
-
-  .what-we-do-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-  }
-
-  .icons {
-    max-width: 10em;
-    max-height: 10em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-  .what-we-do-container-header {
-    align-content: center;
-    text-align: center;
-  }
-
-
-  .what-we-do-container-body p {
-    text-align: center;
-  }
-
-  .what-we-do-container-body h3 {
-    text-align: center;
-    font-weight: bold;
-  }
-
 }
 
 
