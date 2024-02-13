@@ -316,23 +316,28 @@ header {
 
   .what-we-do-container-body p {
     margin-left: 6em;
-}
+  }
 
-  .about-header-container {
+  .whats-new-header {
+    text-align: center;
+  }
+
+  .whats-new-body-1 {
     display: none;
   }
 
-  .content-container-about {
+  .latest-projects-header {
+    align-content: center;
+    text-align: center;
+  }
+  .latest-projects-header p {
+    text-align: center;
+  }
+
+  .latest-projects-body {
     display: none;
   }
 
-  .content-container-flickr-header {
-    display: none;
-  }
-
-  .content-container-flickr-photos {
-    display: none;
-  }
 }
 
 
@@ -386,7 +391,6 @@ header {
     text-align: center;
   }
 
-
   .what-we-do-container-body p {
     text-align: center;
   }
@@ -396,171 +400,44 @@ header {
     font-weight: bold;
   }
 
-  .footer-inner-container {
+  .whats-new-body-4 {
+    display: none;
+  }
+
+  .whats-new-body-5 {
+    display: none;
+  }
+
+  .whats-new-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr); 
-    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .content-container-description {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  .whats-new-body-1 {
+    grid-column: 1 / -1;
   }
 
-  .img-peewee {
-    max-width: 40%;
-    padding: 0;
+  .whats-new-header {
+    text-align: center;
   }
 
-  .description-header {
-    align-self: start;
-    margin-top: 0;
-    margin-left: -10rem;
+  .latest-projects-body-mobile {
+    display: none;
   }
 
-  .description-text {
-    align-self: start;
-    margin-left: -10rem;
+  .latest-projects-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .about-header-container {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    align-self: start;
-    border-bottom: #21c183 1px solid;
-    padding: 0;
-    line-height: 0;
+  .latest-projects-header {
+    align-content: center;
+    text-align: center;
+  }
+  .latest-projects-header p {
+    text-align: center;
   }
 
-  .about-header {
-    text-align: left;
-    font-size: 12pt;
-  }
-
-  .content-container-about {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    margin-top: 1rem;
-  }
-
-  .content-container-social-icons {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    max-width: 70%;
-    align-self: end;
-    margin-bottom: 2em;
-  }
-
-  .content-container-tweets-header {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    align-self: start;
-    border-bottom: #de6262 1px solid;
-    padding: 3pt;
-  }
-
-  .tweet-header {
-    text-align: left;
-  }
-
-  .content-container-tweets {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-  }
-
-  .first {
-    align-self: center;
-  }
-
-  .end {
-    align-self: end;
-  }
-
-  .content-container-flickr-header {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    align-self: start;
-    padding: 0;
-    border-bottom: #f8ba0d 1px solid;
-    line-height: 0;
-  }
-
-  .flickr-header {
-    text-align: left;
-  }
-
-  .content-container-flickr-photos {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    max-width: 90%;
-    align-self: end;
-    justify-self: center;
-  }
-
-  .content-container-newsletter-header {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    align-self: start;
-    padding: 0;
-    border-bottom: #f8ba0d 1px solid;
-    line-height: 0;
-  }
-
-  .newsletter-header {
-    text-align: left;
-  }
-
-  .content-container-newsletter {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    align-self: center;
-  }
-
-  .newsletter-text {
-    color: #fff;
-    font-size: 8pt;
-  }
-
-  .emailinput {
-    color: #fff;
-    background-color: #de6262;
-    font-size: 8pt;
-    padding: 1em;
-  }
-
-  .mail-icon-container {
-    margin-top: -3em;
-    max-width: 30%;
-  }
-
-  .bottom-border {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    align-self: end;
-  }
 }
 
 
@@ -634,6 +511,35 @@ header {
     font-weight: bold;
   }
 
+  .whats-new-body-1 {
+    display: none;
+  }
+
+  .whats-new-body-4 {
+    display: initial;
+  }
+
+  .whats-new-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .latest-projects-body-mobile {
+    display: none;
+  }
+
+  .latest-projects-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .latest-projects-header {
+    align-content: center;
+    text-align: center;
+  }
+  .latest-projects-header p {
+    text-align: center;
+  }
 }
 
 
