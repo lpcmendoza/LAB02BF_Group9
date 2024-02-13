@@ -337,16 +337,6 @@ header {
   .latest-projects-body {
     display: none;
   }
-.accordion-body {
-  display: none;
-}
-.things-above-header {
-  display: none;
-}
-
-.section-clients {
-  display: none;
-}
 
 }
 
@@ -448,116 +438,6 @@ header {
     text-align: center;
   }
 
-  .accordion {
-    margin: auto;
-    color: black;
-  }
-  
-  .accordion .accordion-container {
-    position: relative;
-    margin: 10px 10px;
-  }
-  
-  /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
-  
-  .accordion .accordion-label {
-    position: relative;
-    padding: 10px;
-    color: white;
-    cursor: pointer;
-    background-color: #19b2de;
-  }
-  
-  /* Positions the plus sign 5px from the right. Centers it using the transform property. */
-  
-  .accordion .accordion-label::before {
-    content: '+';
-    color: white;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    background-color: #19b2de;
-  }
-  
-  
-  /* Hides the content (height: 0), decreases font size, justifies text and adds transition */
-  
-  .accordion .accordion-content {
-    position: relative;
-    height: 0;
-    text-align: left;
-    overflow: hidden;
-    transition: 0.5s;
-  }
-  
-  .accordion-content {
-      border-left: 1px solid #eaeaea;
-      border-right: 1px solid #eaeaea;
-      border-bottom: 1px solid #eaeaea;
-      padding-left: 15px;
-      padding-right: 15px;
-      background-color: #f8f8f8;
-  }
-  
-  
-  /* Unhides the content part when active. Sets the height */
-  
-  .accordion .accordion-container.active .accordion-content {
-    height: 200px;
-  }
-  
-  /* Changes from plus sign to negative sign once active */
-  
-  .accordion .accordion-container.active .accordion-label::before {
-    content: '-';
-  }
-  
-  .icons-accordion {
-      max-width: 7em;
-      max-height: 7em;
-      display: block;
-      margin-left: auto;
-      margin-right: 1em;
-      width: 50%;
-      float: left;
-  }
-  
-    .accordion-container p {
-      text-align: left;
-      padding-left: 2em;
-    }
-  
-    .accordion-container h3 {
-      text-align: left;
-      font-weight: bold;
-      padding-top: 0;
-      margin-top: 0;
-    }
-  
-    .accordion-body {
-      column-span: all;
-    }
-  
-    .accordion-label h3 {
-      text-align: left;
-      font-weight: bold;
-      margin: auto;
-    }
-
-    .things-above-header p {
-      text-align: center;
-      align-items: center;
-      align-self: center;
-      align-content: center;
-    }
-
-
-.clients-section {
-  display: grid;
-  column-span: all;
-}
-
 }
 
 
@@ -599,6 +479,7 @@ header {
   .l-hide {
       display: none;
   }
+
 
   .what-we-do-content {
     display: grid;
@@ -661,10 +542,11 @@ header {
   }
   
   .accordion {
-    margin: auto;
+    width: 800px;
+    margin: 90px auto;
     color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 45px 45px;
+    position: absolute;
   }
   
   .accordion .accordion-container {
@@ -718,7 +600,7 @@ header {
   /* Unhides the content part when active. Sets the height */
   
   .accordion .accordion-container.active .accordion-content {
-    height: 200px;
+    height: 150px;
   }
   
   /* Changes from plus sign to negative sign once active */
@@ -727,7 +609,7 @@ header {
     content: '-';
   }
   
-  .icons-accordion {
+  .icons {
       max-width: 7em;
       max-height: 7em;
       display: block;
@@ -750,7 +632,8 @@ header {
     }
   
     .accordion-body {
-      column-span: all;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
   
     .accordion-label h3 {
@@ -759,17 +642,8 @@ header {
       margin: auto;
     }
 
-    .things-above-header p {
-      text-align: center;
-      align-items: center;
-      align-self: center;
-      align-content: center;
-    }
-
-
-.clients-section {
-  display: grid;
-  column-span: all;
+.content-container-clients {
+  display: inline-block;
 }
 
 }

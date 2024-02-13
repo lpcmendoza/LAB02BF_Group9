@@ -337,16 +337,6 @@ header {
   .latest-projects-body {
     display: none;
   }
-.accordion-body {
-  display: none;
-}
-.things-above-header {
-  display: none;
-}
-
-.section-clients {
-  display: none;
-}
 
 }
 
@@ -504,7 +494,7 @@ header {
   /* Unhides the content part when active. Sets the height */
   
   .accordion .accordion-container.active .accordion-content {
-    height: 200px;
+    height: 150px;
   }
   
   /* Changes from plus sign to negative sign once active */
@@ -718,7 +708,7 @@ header {
   /* Unhides the content part when active. Sets the height */
   
   .accordion .accordion-container.active .accordion-content {
-    height: 200px;
+    height: 150px;
   }
   
   /* Changes from plus sign to negative sign once active */
