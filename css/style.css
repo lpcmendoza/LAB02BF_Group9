@@ -631,7 +631,7 @@ header {
     grid-row-end: 5;
     align-self: end;
   }
-=======
+
   .accordion {
     margin: auto;
     color: black;
@@ -948,6 +948,69 @@ header {
       align-items: center;
       align-self: center;
       align-content: center;
+    }
+
+    .footer-inner-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 1fr; 
+    }
+
+    .content-container-description {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .about-header-container {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+
+    .content-container-about {
+      grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .content-container-social-icons {
+      grid-area: 2 / 1 / 3 / 2;
+      margin-top: -2em;
+    }
+
+    .content-container-flickr-header {
+      grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .content-container-flickr-photos {
+      grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .newsletter {
+      grid-area: 2 / 4 / 3 / 5;
+      margin-top: -1em;
+    }
+
+    .content-container-tweets-header {
+      grid-area: 2 / 3 / 3 / 4;
+      margin-top: -0.9em;
+    }
+
+    .content-container-tweets {
+      grid-area: 2 / 3 / 3 / 4;
+    }
+
+    .first {
+      align-self: center;
+    }
+
+    .end {
+      align-self: end;
+    }
+
+    .bottom-border {
+      grid-area: 2 / 3 / 3 / 5;
     }
 
 
