@@ -389,8 +389,8 @@ footer {
     justify-content: flex-start;
     margin-right: 14rem;
   }
-  
   .banner-image, .banner-container {
+    margin-top: -9rem;
     width: 80%;
   }
   .nav-buttons {
@@ -805,7 +805,7 @@ footer {
   }
 
   .banner-image, .banner-container {
-    margin-top: -2rem;
+    margin-top: -2.9rem;
     width: 90%;
   }
 }
