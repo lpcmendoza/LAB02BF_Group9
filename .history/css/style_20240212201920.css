@@ -300,6 +300,7 @@ footer {
   }
 .metrolics{
   margin-bottom: -15rem;
+  margin-top: 20px;
 }
   .what-we-do-container-header {
     align-content: center;
@@ -389,13 +390,12 @@ footer {
     justify-content: flex-start;
     margin-right: 14rem;
   }
-  
   .banner-image, .banner-container {
+    margin-top: -7rem;
     width: 80%;
   }
   .nav-buttons {
     margin-top: 2.1rem;
-    margin-bottom: -1.1rem;
   }
 
   .s-hide {
@@ -802,11 +802,12 @@ footer {
   .metrolics {
     display: flex;
     justify-content: flex-start;
+    margin-top: -5rem;
   }
 
   .banner-image, .banner-container {
     margin-top: -2rem;
-    width: 90%;
+    width: 40%;
   }
 }
 
@@ -817,8 +818,12 @@ footer {
   .banner-image {
     display: grid;
     place-items: center;
-    margin-top: -.6rem;
+    margin-top: 1rem;
     width: 100%;
+  }
+
+  .metrolics {
+    margin-top: 7rem;
   }
 
   .l-col-2 {

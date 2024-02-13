@@ -389,8 +389,8 @@ footer {
     justify-content: flex-start;
     margin-right: 14rem;
   }
-  
   .banner-image, .banner-container {
+    margin-top: -8rem;
     width: 80%;
   }
   .nav-buttons {
@@ -802,10 +802,11 @@ footer {
   .metrolics {
     display: flex;
     justify-content: flex-start;
+    margin-top: -5rem;
   }
 
   .banner-image, .banner-container {
-    margin-top: -2rem;
+    margin-top: -2.5rem;
     width: 90%;
   }
 }
@@ -817,7 +818,7 @@ footer {
   .banner-image {
     display: grid;
     place-items: center;
-    margin-top: -.6rem;
+    margin-top: -.8rem;
     width: 100%;
   }
 
