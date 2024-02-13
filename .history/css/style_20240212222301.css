@@ -397,8 +397,7 @@ footer {
   }
   .banner-image, .banner-container {
     width: 80%;
-    margin-bottom: -4rem;
-    margin-top: -.4rem;;
+    margin-bottom: -3rem;
   }
   .nav-buttons {
     margin-top: 2.1rem;
@@ -826,6 +825,9 @@ footer {
     display: grid;
     place-items: center;
     width: 100%;
+  }
+  .metrolics{
+    margin-top: 5rem;
   }
   .l-col-2 {
     grid-template-columns: 1fr 1fr;

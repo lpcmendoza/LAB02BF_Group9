@@ -298,10 +298,12 @@ footer {
   .content-container {
     display: none;
   }
-.metrolics{
-  margin-bottom: -13rem;
-  top: 0;
-}
+
+  .metrolics {
+    margin-bottom: -13rem;
+    top: 0;
+  }
+
   .what-we-do-container-header {
     align-content: center;
     text-align: center;
@@ -391,15 +393,18 @@ footer {
     margin-right: 14rem;
     top: 0;
   }
-  .title{
+
+  .title {
     margin-bottom: 1rem;
-    
+
   }
-  .banner-image, .banner-container {
+
+  .banner-image,
+  .banner-container {
     width: 80%;
-    margin-bottom: -4rem;
-    margin-top: -.4rem;;
+    margin-bottom: -3rem;
   }
+
   .nav-buttons {
     margin-top: 2.1rem;
     margin-bottom: -2.1rem;
@@ -812,7 +817,8 @@ footer {
     top: 0;
   }
 
-  .banner-image, .banner-container {
+  .banner-image,
+  .banner-container {
     margin-top: -2rem;
     width: 90%;
   }
@@ -825,8 +831,10 @@ footer {
   .banner-image {
     display: grid;
     place-items: center;
+    margin-top: -.1rem;
     width: 100%;
   }
+
   .l-col-2 {
     grid-template-columns: 1fr 1fr;
   }
